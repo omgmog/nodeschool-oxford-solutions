@@ -30,9 +30,9 @@ var add_to_data_set = function (data, index) {
 
 var check_if_last = function (index) {
     if (index === 2) {
-        data_set.sort(function(a, b){
-            if(a.index < b.index) return -1;
-            if(a.index > b.index) return 1;
+        data_set.sort(function(a, b) {
+            if (a.index < b.index) return -1;
+            if (a.index > b.index) return 1;
             return 0;
         });
         data_set.forEach(function (data) {
